@@ -1,0 +1,119 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color:black;
+    color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin: 0;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+}
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav li{
+    display: inline;
+    padding-right: 20px;
+    color:white;
+    font-size: 20px;
+}
+.nav-item{
+    padding-left:  500px;
+}
+.title{
+    background-image: url("theater-image-background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top:350px;
+    padding-bottom:350px;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    margin:0;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.mid-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-row-gap: 20px;
+}
+.itemdate{
+    background-color: lightgray;
+    width: 50%;
+    height: 25px;
+    margin-left: 25%;
+    border: solid 1px;
+    padding-left: 10px;
+
+}
+.img{
+    grid-column-start: 2;
+    width: 200px;
+    height: 200px;
+    padding-left:100px;
+}
+.play{
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size: 20px;
+    border-bottom: solid 1px;
+}
+.button{
+    grid-column-start: 4;
+    border: solid 1px black;
+    width:150px;
+    height:50px;
+    background-color:orange;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 60px;
+    margin-left: 125px;
+    text-decoration: none;
+}
+.line{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    width: 90%;
+    height:0;
+    margin: 0;
+    margin-left: 100px;
+    padding:0;
+    justify-content: center;
+}
+.lower-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    background-color:black;
+    color: white;
+    margin-top: 20px;
+    height:250px;
+}
+.info{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.info img{
+    padding-right: 10px;
+}
+.map{
+    padding-block: 25px;
+    padding-left: 100px;
+}
+.ico{
+    width: 17px;
+    height: 17px;
+}
