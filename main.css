@@ -45,7 +45,7 @@ nav li{
 .mid-grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 15px 1fr 15px 1fr 15px 1fr;
     justify-content: center;
     grid-row-gap: 20px;
 }
@@ -68,7 +68,6 @@ nav li{
     padding-top: 0px;
     padding-left: 20px;
     font-size: 20px;
-    border-bottom: solid 1px;
 }
 .button{
     grid-column-start: 4;
@@ -86,7 +85,7 @@ nav li{
 .line{
     grid-column-start: 2;
     grid-column-end: 5;
-    width: 90%;
+    width: 84%;
     height:0;
     margin: 0;
     margin-left: 100px;
